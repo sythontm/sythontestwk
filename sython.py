@@ -55,94 +55,95 @@ async def join_channel():
     except BaseException:
         pass
 
+
 @sython1.on(events.NewMessage(outgoing=False, pattern='.فحص'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('the source is running ⚡️')
+        order = await event.reply('**the source is running ⚡️**')
 
 @sython2.on(events.NewMessage(outgoing=False, pattern='.فحص'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('the source is running ⚡️')
+        order = await event.reply('**the source is running ⚡️**')
 
 
 @sython3.on(events.NewMessage(outgoing=False, pattern='.فحص'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('the source is running ⚡️')
+        order = await event.reply('**the source is running ⚡️**')
 
 
 @sython4.on(events.NewMessage(outgoing=False, pattern='.فحص'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('the source is running ⚡️')
+        order = await event.reply('**the source is running ⚡️**')
 
 @sython5.on(events.NewMessage(outgoing=False, pattern='.فحص'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('the source is running ⚡️')
+        order = await event.reply('**the source is running ⚡️**')
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='.الاوامر'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('**〠 مرحبا بك في قائمة اوامر حساب المسؤل
+        order = await event.reply("""**〠 مرحبا بك في قائمة اوامر حساب المسؤل
 
 • @ZMMBOT -` /point1`
 • @A_MAN9300BOT - `/point2`
 • @MARKTEBOT - `/point3`
-• @XNSEX21BOT - `/point4`**')
+• @XNSEX21BOT - `/point4`**""")
 
 @sython2.on(events.NewMessage(outgoing=False, pattern='.الاوامر'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('〠 مرحبا بك في قائمة اوامر حساب المسؤل
+        order = await event.reply("""**〠 مرحبا بك في قائمة اوامر حساب المسؤل
 
 • @ZMMBOT -` /point1`
 • @A_MAN9300BOT - `/point2`
 • @MARKTEBOT - `/point3`
-• @XNSEX21BOT - `/point4`')
-
+• @XNSEX21BOT - `/point4`**""")
 
 @sython3.on(events.NewMessage(outgoing=False, pattern='.الاوامر'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('〠 مرحبا بك في قائمة اوامر حساب المسؤل
+        order = await event.reply("""**〠 مرحبا بك في قائمة اوامر حساب المسؤل
 
 • @ZMMBOT -` /point1`
 • @A_MAN9300BOT - `/point2`
 • @MARKTEBOT - `/point3`
-• @XNSEX21BOT - `/point4`')
+• @XNSEX21BOT - `/point4`**""")
 
 
 @sython4.on(events.NewMessage(outgoing=False, pattern='.الاوامر'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('〠 مرحبا بك في قائمة اوامر حساب المسؤل
+        order = await event.reply("""**〠 مرحبا بك في قائمة اوامر حساب المسؤل
 
 • @ZMMBOT -` /point1`
 • @A_MAN9300BOT - `/point2`
 • @MARKTEBOT - `/point3`
-• @XNSEX21BOT - `/point4`')
+• @XNSEX21BOT - `/point4`**""")
 
 @sython5.on(events.NewMessage(outgoing=False, pattern='.الاوامر'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('〠 مرحبا بك في قائمة اوامر حساب المسؤل
+        order = await event.reply("""**〠 مرحبا بك في قائمة اوامر حساب المسؤل
 
 • @ZMMBOT -` /point1`
 • @A_MAN9300BOT - `/point2`
 • @MARKTEBOT - `/point3`
-• @XNSEX21BOT - `/point4`')
+• @XNSEX21BOT - `/point4`**""")
+
 
 
 
