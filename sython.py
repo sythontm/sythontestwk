@@ -1359,7 +1359,7 @@ async def _(event):
                 break
         await sython4.send_message(event.chat_id, "تم الانتهاء من التجميع !")
         
-    @sython4.on(events.NewMessage(outgoing=False, pattern='/point3'))
+@sython4.on(events.NewMessage(outgoing=False, pattern='/point3'))
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await sython4.get_entity(bot_usernameee)
@@ -1716,7 +1716,7 @@ async def _(event):
                 break
         await sython5.send_message(event.chat_id, "تم الانتهاء من التجميع !")
         
-    @sython5.on(events.NewMessage(outgoing=False, pattern='/point3'))
+@sython5.on(events.NewMessage(outgoing=False, pattern='/point3'))
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await sython5.get_entity(bot_usernameee)
