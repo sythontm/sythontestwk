@@ -1002,7 +1002,7 @@ async def _(event):
                 break
         await sython3.send_message(event.chat_id, "تم الانتهاء من التجميع !")
         
-    @sython3.on(events.NewMessage(outgoing=False, pattern='/point3'))
+@sython3.on(events.NewMessage(outgoing=False, pattern='/point3'))
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await sython3.get_entity(bot_usernameee)
