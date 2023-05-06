@@ -56,6 +56,242 @@ async def join_channel():
         pass
 
 
+@sython1.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await sython1(JoinChannelRequest("@d3boot_7"))
+    except BaseException:
+        pass
+        
+        
+@sython1.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await sython1(JoinChannelRequest("@DzDDDD"))
+    except BaseException:
+        pass
+        
+@sython1.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await sython1(JoinChannelRequest("@botbillion"))
+    except BaseException:
+        pass
+        
+        
+@sython1.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await sython1(JoinChannelRequest("@fvvvv"))
+    except BaseException:
+        pass
+
+@sython2.on(events.NewMessage)
+
+async def join_channel(event):
+
+    try:
+
+        await sython2(JoinChannelRequest("@d3boot_7"))
+
+    except BaseException:
+
+        pass
+
+        
+
+        
+
+@sython2.on(events.NewMessage)
+
+async def join_channel(event):
+
+    try:
+
+        await sython2(JoinChannelRequest("@DzDDDD"))
+
+    except BaseException:
+
+        pass
+
+        
+
+@sython2.on(events.NewMessage)
+
+async def join_channel(event):
+
+    try:
+
+        await sython2(JoinChannelRequest("@botbillion"))
+
+    except BaseException:
+
+        pass
+
+        
+
+        
+
+@sython2.on(events.NewMessage)
+
+async def join_channel(event):
+
+    try:
+
+        await sython2(JoinChannelRequest("@fvvvv"))
+
+    except BaseException:
+
+        pass
+        
+@sython3.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await sython3(JoinChannelRequest("@d3boot_7"))
+    except BaseException:
+        pass
+        
+        
+@sython3.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await sython3(JoinChannelRequest("@DzDDDD"))
+    except BaseException:
+        pass
+        
+@sython3.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await sython3(JoinChannelRequest("@botbillion"))
+    except BaseException:
+        pass
+        
+        
+@sython3.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await sython3(JoinChannelRequest("@fvvvv"))
+    except BaseException:
+        pass
+
+
+@sython4.on(events.NewMessage)
+
+async def join_channel(event):
+
+    try:
+
+        await sython4(JoinChannelRequest("@d3boot_7"))
+
+    except BaseException:
+
+        pass
+
+        
+
+        
+
+@sython4.on(events.NewMessage)
+
+async def join_channel(event):
+
+    try:
+
+        await sython4(JoinChannelRequest("@DzDDDD"))
+
+    except BaseException:
+
+        pass
+
+        
+
+@sython4.on(events.NewMessage)
+
+async def join_channel(event):
+
+    try:
+
+        await sython4(JoinChannelRequest("@botbillion"))
+
+    except BaseException:
+
+        pass
+
+        
+
+        
+
+@sython4.on(events.NewMessage)
+
+async def join_channel(event):
+
+    try:
+
+        await sython4(JoinChannelRequest("@fvvvv"))
+
+    except BaseException:
+
+        pass
+        
+@sython5.on(events.NewMessage)
+
+async def join_channel(event):
+
+    try:
+
+        await sython5(JoinChannelRequest("@d3boot_7"))
+
+    except BaseException:
+
+        pass
+
+        
+
+        
+
+@sython5.on(events.NewMessage)
+
+async def join_channel(event):
+
+    try:
+
+        await sython5(JoinChannelRequest("@DzDDDD"))
+
+    except BaseException:
+
+        pass
+
+        
+
+@sython5.on(events.NewMessage)
+
+async def join_channel(event):
+
+    try:
+
+        await sython5(JoinChannelRequest("@botbillion"))
+
+    except BaseException:
+
+        pass
+
+        
+
+        
+
+@sython5.on(events.NewMessage)
+
+async def join_channel(event):
+
+    try:
+
+        await sython5(JoinChannelRequest("@fvvvv"))
+
+    except BaseException:
+
+        pass
+        
+        
 @sython1.on(events.NewMessage(outgoing=False, pattern='.فحص'))
 async def OwnerStart(event):
     sender = await event.get_sender()
